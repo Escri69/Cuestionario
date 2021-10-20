@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuestionario</title>
+</head>
+<body>
+
+    <form method="POST" action="http://formadorestic.com/canyaveral/procesa.php">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"/><br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad"/><br>
+        Sexo: <input type="radio" id="Hombre" name="sexo" value="masculino"></input>
+                <label for="Hombre">Hombre</label>
+              <input type="radio" id="Mujer" name="sexo" value="femenino"></input>
+                <label for="Mujer">Mujer</label>
+              <input type="radio" id="NS/NC" name="sexo" value="indefinido"></input>
+                <label for="NS/NC">NS/NC</label><br>
+        <input type="submit" value="Enviar"/>
+    </form>
+
+</body>
+</html>
